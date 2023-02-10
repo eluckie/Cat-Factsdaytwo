@@ -1,9 +1,29 @@
-<!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <title>Title</title>
+  <title>🐈 🐈‍⬛ 🐈 🐈‍⬛</title>
 </head>
 <body>
-  
+  <h1>🐈 🐈‍⬛ Fabulous, Fun Feline Facts 🐈 🐈‍⬛</h1>
+  <form id="cat-facts-form">
+    <label for="number-input">How many facts do you want?</label>
+    <input id="number-input" type="number"><br>
+    <select id="language-input">
+      <option value="eng">English</option>
+      <option value="ger">German</option>
+      <option value="ukr">Ukrainian</option>
+      <option value="rus">Russian</option>
+      <option value="por">Portuguese</option>
+      <option value="esp-mx">Spanish</option>
+      <option value="ces-cz">Czech</option>
+      <option value="tl-fil">Tagalog</option>
+    </select><br>
+    <button type="submit" id="cat-facts-button">Show me my facts</button>
+  </form>
+  <p id="inputError" class="hidden">hiss hiss! Please enter a number to get facts</p>
+  <div id="show-cat-facts"></div><br><br>
+  <div id="showResponse"></div>
+
+  <img src="./assets/images/catpainting.jpeg" alt="carl kahler: my wife's lovers">
+  <p>Carl Kahler, <i>My Wife's Lovers</i> (1855-1906)</p>
 </body>
 </html>
